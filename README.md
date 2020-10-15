@@ -5,7 +5,7 @@
 [![Coverity Scan](https://scan.coverity.com/projects/4884/badge.svg)](https://scan.coverity.com/projects/glfw-glfw)
 
 
-#Changes to GLFW/GLFW
+# Changes to GLFW/GLFW
 Added premake file
 
 ## Introduction
