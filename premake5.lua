@@ -44,8 +44,12 @@ project "GLFW"
 
 	filter "system:windows"
 		systemversion "latest"
-		staticruntime "On"
-
+		if(UseDLL) then
+			staticruntime "off"
+		else
+			staticruntime "On"
+		end
+		
 		files
 		{
 			"src/win32_init.c",
